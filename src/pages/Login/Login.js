@@ -26,7 +26,7 @@ const Login = (props) => {
 
   const onFinish = (values) => {
     console.log('Success:', values);
-    history.push('/traffic/buses');
+    history.push('/main/profile');
   };
 
   const onFinishFailed = (errorInfo) => {
@@ -39,7 +39,7 @@ const Login = (props) => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.title}>Онлайн моніторинг громадського транспорту міста Ірпінь</div>
+      <div className={styles.title}>Grampus</div>
       <div className={styles.login_form}>
         <Form
           {...layout}

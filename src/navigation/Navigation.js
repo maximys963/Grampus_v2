@@ -7,24 +7,24 @@ import {
 
 import Login from '../pages/Login/Login';
 import Registration from '../pages/Registration/Registration';
-import Traffic from '../pages/Traffic/Traffic';
+import MainScreen from '../pages/MainScreen/MainScreen';
 
 const Navigation = () => (
   <HashRouter>
     <Switch>
+      {/* <Route */}
+      {/*  exact */}
+      {/*  path="/" */}
+      {/*  component={Login} */}
+      {/* /> */}
+      {/* <Route */}
+      {/*  exact */}
+      {/*  path="/registration" */}
+      {/*  component={Registration} */}
+      {/* /> */}
       <Route
-        exact
         path="/"
-        component={Login}
-      />
-      <Route
-        exact
-        path="/registration"
-        component={Registration}
-      />
-      <Route
-        path="/traffic"
-        component={Traffic}
+        component={MainScreen}
       />
     </Switch>
   </HashRouter>
