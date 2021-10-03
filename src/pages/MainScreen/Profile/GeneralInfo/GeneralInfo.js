@@ -8,6 +8,9 @@ function GeneralInfo() {
     <div className={styles.container}>
       <Divider orientation="left">General</Divider>
       <div className={styles.details_container}>
+        <b>Points Score: 50</b>
+      </div>
+      <div className={styles.details_container}>
         <b>Work anniversary:</b>
         {' '}
         10 April 2020

@@ -21,7 +21,7 @@ const UserMenu = () => {
     <Menu mode="inline" openKeys={openKeys} onOpenChange={onOpenChange} style={{ width: 256, height: '100vh' }}>
       <Menu.Item
         role="button"
-        onClick={() => history.push('/main/profile')}
+        onClick={() => history.push('/main/profile/general')}
         key="1"
       >
         Profile
@@ -53,6 +53,13 @@ const UserMenu = () => {
         key="5"
       >
         Analytics
+      </Menu.Item>
+      <Menu.Item
+        role="button"
+        onClick={() => history.push('/main/merch')}
+        key="6"
+      >
+        Merch
       </Menu.Item>
     </Menu>
   );

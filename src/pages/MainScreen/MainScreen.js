@@ -7,8 +7,9 @@ import UserMenu from '../../components/UserMenu/UserMenu';
 import Analytics from './Analytics/Analytics';
 import HelpDesk from './HelpDesk/HelpDesk';
 import Profile from './Profile/Profile';
-import Questionnaire from './Questionnaire/Questionairie';
+import Questionnaire from './Questionnaire/Questionnairie';
 import Recommendations from './Recommendations/Recommendations';
+import Merch from './Merch/Merch';
 
 import styles from './MainScreen.module.sass';
 
@@ -18,7 +19,6 @@ const MainScreen = () => (
     <div className={styles.pages_container}>
       <Switch>
         <Route
-          exact
           path="/main/profile"
           component={Profile}
         />
@@ -41,6 +41,11 @@ const MainScreen = () => (
           exact
           path="/main/analytics"
           component={Analytics}
+        />
+        <Route
+          exact
+          path="/main/merch"
+          component={Merch}
         />
       </Switch>
     </div>
