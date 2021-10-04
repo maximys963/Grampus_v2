@@ -3,6 +3,11 @@ import { Divider } from 'antd';
 import Achievement from './Achievement/Achievement';
 import helpImg from '../../../../assets/img/achivements/help.svg';
 import recommendationImg from '../../../../assets/img/achivements/recomendation.svg';
+import timeWizardImg from '../../../../assets/img/achivements/wizard.svg';
+import fashionStarImg from '../../../../assets/img/achivements/male-clothes.svg';
+import lordOfResponsibilityImg from '../../../../assets/img/achivements/king.svg';
+import terminatorImg from '../../../../assets/img/achivements/robot.svg';
+import fastLearnerImg from '../../../../assets/img/achivements/book.svg';
 
 import styles from './Achievements.module.sass';
 
@@ -14,6 +19,26 @@ const ACHIEVEMENTS_MAP = [
   {
     src: recommendationImg,
     title: 'Super HR',
+  },
+  {
+    src: timeWizardImg,
+    title: 'Time Wizard',
+  },
+  {
+    src: fashionStarImg,
+    title: 'Fashion Star',
+  },
+  {
+    src: lordOfResponsibilityImg,
+    title: 'Lord of Responsibility',
+  },
+  {
+    src: terminatorImg,
+    title: 'Terminator',
+  },
+  {
+    src: fastLearnerImg,
+    title: 'Fast learner',
   },
 ];
 

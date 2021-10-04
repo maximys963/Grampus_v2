@@ -8,12 +8,12 @@ import { useHistory } from 'react-router';
 import styles from './Registration.module.sass';
 
 const validateMessages = {
-  required: "${label} обов'язкове поле для заповнення",
+  required: '${label} required',
   types: {
-    email: 'Не валідний імейл',
+    email: 'Email is not valid',
   },
   string: {
-    range: '${label} повинен бути мінімум ${min} символів',
+    range: '${label} should be min ${min} symbols',
   },
 };
 
@@ -35,23 +35,23 @@ const Registration = (props) => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.title}>Реєстрація</div>
+      <div className={styles.title}>Registration</div>
       <Form {...layout} name="nest-messages" onFinish={onFinish} validateMessages={validateMessages}>
-        <Form.Item name={['user', 'name']} label="Імя" rules={[{ required: true }]}>
+        <Form.Item name={['user', 'name']} label="Name" rules={[{ required: true }]}>
           <Input />
         </Form.Item>
-        <Form.Item name={['user', 'email']} label="Імейл" rules={[{ type: 'email', required: true }]}>
+        <Form.Item name={['user', 'email']} label="Email" rules={[{ type: 'email', required: true }]}>
           <Input />
         </Form.Item>
-        <Form.Item name="password" label="Пароль" rules={[{ required: true }]}>
+        <Form.Item name="password" label="Password" rules={[{ required: true }]}>
           <Input.Password />
         </Form.Item>
-        <Form.Item name="repeat password" label="Повторити пароль" rules={[{ required: true }]}>
+        <Form.Item name="repeat password" label="Confirm passsword" rules={[{ required: true }]}>
           <Input.Password />
         </Form.Item>
         <Form.Item wrapperCol={{ ...layout.wrapperCol, offset: 8 }}>
           <Button type="primary" htmlType="submit">
-            Зареєструватись
+            Sign Up
           </Button>
         </Form.Item>
       </Form>

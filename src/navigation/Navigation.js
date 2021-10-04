@@ -12,18 +12,18 @@ import MainScreen from '../pages/MainScreen/MainScreen';
 const Navigation = () => (
   <HashRouter>
     <Switch>
-      {/* <Route */}
-      {/*  exact */}
-      {/*  path="/" */}
-      {/*  component={Login} */}
-      {/* /> */}
-      {/* <Route */}
-      {/*  exact */}
-      {/*  path="/registration" */}
-      {/*  component={Registration} */}
-      {/* /> */}
       <Route
+        exact
         path="/"
+        component={Login}
+      />
+      <Route
+        exact
+        path="/registration"
+        component={Registration}
+      />
+      <Route
+        path="/main"
         component={MainScreen}
       />
     </Switch>

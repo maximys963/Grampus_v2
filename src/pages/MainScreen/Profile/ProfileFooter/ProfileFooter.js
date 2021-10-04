@@ -1,5 +1,5 @@
 import React from 'react';
-import userAvatar from '../../../../assets/img/maxim.jpg';
+import userAvatar from '../../../../assets/img/eminem.jpeg';
 import styles from './ProfileFooter.module.sass';
 
 function ProfileFooter() {
@@ -9,7 +9,7 @@ function ProfileFooter() {
         src={userAvatar}
         className={styles.avatar}
       />
-      <h2 className={styles.name_text}>Pansenko Maksym</h2>
+      <h2 className={styles.name_text}>Marshall Mathers</h2>
       <div className={styles.position}>
         Front-end developer
       </div>

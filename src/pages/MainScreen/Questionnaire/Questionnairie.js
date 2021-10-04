@@ -6,7 +6,7 @@ import { DownOutlined, CheckOutlined } from '@ant-design/icons';
 import { v4 as uuidv4 } from 'uuid';
 
 import danielImg from '../../../assets/img/collegues/daniel.jpeg';
-import eminemImg from '../../../assets/img/collegues/eminem.jpeg';
+import opra from '../../../assets/img/collegues/oprah.jpeg';
 import kingImg from '../../../assets/img/collegues/king_s.jpeg';
 import lanaDelRayImg from '../../../assets/img/collegues/lana_del_ray.jpeg';
 
@@ -25,8 +25,8 @@ const COLLEAGUES_MAP = [
   },
   {
     id: uuidv4(),
-    name: 'Eminem',
-    imageUrl: eminemImg,
+    name: 'Oprah Winfrey',
+    imageUrl: opra,
   },
   {
     id: uuidv4(),

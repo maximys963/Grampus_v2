@@ -4,12 +4,14 @@ import Chart from 'chart.js';
 import styles from './Analytics.module.sass';
 
 function Analytics() {
-  const lineChart = useRef();
-  const pieChart = useRef();
+  let lineChart = useRef();
+  let pieChart = useRef();
+  let performanceChartRef = useRef();
 
   useEffect(() => {
     const customLineChartRef = lineChart.current.getContext('2d');
     const customPieChartRef = pieChart.current.getContext('2d');
+    const createdToPreformedRef = performanceChartRef.current.getContext('2d');
 
     new Chart(customLineChartRef, {
       type: 'line',
@@ -41,7 +43,36 @@ function Analytics() {
         ],
       },
     });
-  });
+
+    new Chart(createdToPreformedRef, {
+      type: 'line',
+      data: {
+        labels: ['August', 'September', 'October', 'November', 'December', 'January', 'February'],
+        datasets: [
+          {
+            label: 'Created',
+            data: [20, 5, 10, 40, 0, 0, 35],
+            fill: false,
+            borderColor: '#ff6b6b',
+            tension: 0.1,
+          },
+          {
+            label: 'Performed',
+            data: [10, 30, 15, 5, 4, 10, 10],
+            fill: false,
+            borderColor: '#1dd1a1',
+            tension: 0.1,
+          },
+        ],
+      },
+    });
+
+    return () => {
+      lineChart = null;
+      pieChart = null;
+      performanceChartRef = null;
+    };
+  }, []);
 
   return (
     <div className={styles.container}>
@@ -53,6 +84,10 @@ function Analytics() {
         <h3 className={styles.title}>Ratio of personal qualities</h3>
         <div>
           <canvas ref={pieChart} />
+        </div>
+        <h3 className={styles.title}>Created/Performed tasks</h3>
+        <div>
+          <canvas ref={performanceChartRef} />
         </div>
       </div>
     </div>

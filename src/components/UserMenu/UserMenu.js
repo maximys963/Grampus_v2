@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { LogoutOutlined } from '@ant-design/icons';
 import { useHistory } from 'react-router';
 import { Menu } from 'antd';
 
@@ -60,6 +61,15 @@ const UserMenu = () => {
         key="6"
       >
         Merch
+      </Menu.Item>
+      <Menu.Item
+        style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+        role="button"
+        onClick={() => history.push('/')}
+        key="7"
+      >
+        LogOut
+        <LogoutOutlined />
       </Menu.Item>
     </Menu>
   );
