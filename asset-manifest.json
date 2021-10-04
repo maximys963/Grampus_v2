@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Grampus_v2/static/css/main.14e90947.chunk.css",
+    "main.js": "/Grampus_v2/static/js/main.5b687f5a.chunk.js",
+    "main.js.map": "/Grampus_v2/static/js/main.5b687f5a.chunk.js.map",
+    "runtime-main.js": "/Grampus_v2/static/js/runtime-main.d6b1aa3d.js",
+    "runtime-main.js.map": "/Grampus_v2/static/js/runtime-main.d6b1aa3d.js.map",
+    "static/css/2.a95be28f.chunk.css": "/Grampus_v2/static/css/2.a95be28f.chunk.css",
+    "static/js/2.f8e9c1b4.chunk.js": "/Grampus_v2/static/js/2.f8e9c1b4.chunk.js",
+    "static/js/2.f8e9c1b4.chunk.js.map": "/Grampus_v2/static/js/2.f8e9c1b4.chunk.js.map",
+    "static/js/3.b76b4e5f.chunk.js": "/Grampus_v2/static/js/3.b76b4e5f.chunk.js",
+    "static/js/3.b76b4e5f.chunk.js.map": "/Grampus_v2/static/js/3.b76b4e5f.chunk.js.map",
+    "index.html": "/Grampus_v2/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/Grampus_v2/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.14e90947.chunk.css.map": "/Grampus_v2/static/css/main.14e90947.chunk.css.map",
+    "static/js/2.f8e9c1b4.chunk.js.LICENSE.txt": "/Grampus_v2/static/js/2.f8e9c1b4.chunk.js.LICENSE.txt",
+    "static/media/bagPack.f6067f6f.png": "/Grampus_v2/static/media/bagPack.f6067f6f.png",
+    "static/media/beltPack.d208f23b.jpg": "/Grampus_v2/static/media/beltPack.d208f23b.jpg",
+    "static/media/book.509aa79b.svg": "/Grampus_v2/static/media/book.509aa79b.svg",
+    "static/media/cap.2e6161ce.webp": "/Grampus_v2/static/media/cap.2e6161ce.webp",
+    "static/media/daniel.dfaa0c35.jpeg": "/Grampus_v2/static/media/daniel.dfaa0c35.jpeg",
+    "static/media/eminem.a0a1f7c8.jpeg": "/Grampus_v2/static/media/eminem.a0a1f7c8.jpeg",
+    "static/media/help.beedfbcc.svg": "/Grampus_v2/static/media/help.beedfbcc.svg",
+    "static/media/king.e7434455.svg": "/Grampus_v2/static/media/king.e7434455.svg",
+    "static/media/king_s.f75801f4.jpeg": "/Grampus_v2/static/media/king_s.f75801f4.jpeg",
+    "static/media/lana_del_ray.4c9cf0af.jpeg": "/Grampus_v2/static/media/lana_del_ray.4c9cf0af.jpeg",
+    "static/media/male-clothes.2ee85b89.svg": "/Grampus_v2/static/media/male-clothes.2ee85b89.svg",
+    "static/media/nau.f7e669a3.jpeg": "/Grampus_v2/static/media/nau.f7e669a3.jpeg",
+    "static/media/oprah.df29359d.jpeg": "/Grampus_v2/static/media/oprah.df29359d.jpeg",
+    "static/media/recomendation.99aeaf36.svg": "/Grampus_v2/static/media/recomendation.99aeaf36.svg",
+    "static/media/robot.7c4c3618.svg": "/Grampus_v2/static/media/robot.7c4c3618.svg",
+    "static/media/wizard.761a72ae.svg": "/Grampus_v2/static/media/wizard.761a72ae.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6b1aa3d.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.f8e9c1b4.chunk.js",
+    "static/css/main.14e90947.chunk.css",
+    "static/js/main.5b687f5a.chunk.js"
+  ]
+}
